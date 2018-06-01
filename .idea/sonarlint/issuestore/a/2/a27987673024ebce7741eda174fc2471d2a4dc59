@@ -1,0 +1,16 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ô„…øýÿÿÿÿ8©¼­Ö¦,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì·Ýƒüÿÿÿÿ8Á—â¬¦,
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Îá¬¦,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯ò…Öøÿÿÿÿ8Á—â¬¦,
+lsquid:UnusedPrivateMethod"=Remove this unused private "testWhileTrueInterrupted" method.(ÈñäÓýÿÿÿÿ8©¼­Ö¦,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì·Ýƒüÿÿÿÿ8Îá¬¦,
+lsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ž»›x
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Îá¬¦,
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Á—â¬¦,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(±…ÝÒûÿÿÿÿ8Îá¬¦,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Á—â¬¦,

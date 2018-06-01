@@ -1,0 +1,21 @@
+
+msquid:UselessImportCheck"DRemove this unused import 'javax.print.attribute.standard.NumberUp'.(÷Åß½8€¹Ë«»,
+Bsquid:S2129"!Remove this "Integer" constructor(â²ëøıÿÿÿÿ8€¹Ë«»,
+?squid:S2129"Remove this "Long" constructor(‰Ô³ûÿÿÿÿ8€¹Ë«»,
+Jsquid:S1481")Remove this unused "test" local variable.(Æî²”ıÿÿÿÿ8€¹Ë«»,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(À·Ôî8€¹Ë«»,
+Ysquid:S1854"8Remove this useless assignment to local variable "test".(Æî²”ıÿÿÿÿ8€¹Ë«»,
+`squid:S1854"?Remove this useless assignment to local variable "listExtends".(âÇå¿úÿÿÿÿ8€¹Ë«»,
+Isquid:S1604"(Make this anonymous inner class a lambda(Æî²”ıÿÿÿÿ8€¹Ë«»,
+Lsquid:S1481"+Remove this unused "object" local variable.(‘é­¢øÿÿÿÿ8€¹Ë«»,
+osquid:UselessImportCheck"ARemove this unused import 'org.omg.PortableInterceptor.INACTIVE'.(ËÚÁ×úÿÿÿÿ8€¹Ë«»,
+ksquid:UselessImportCheck"=Remove this unused import 'javax.swing.text.NumberFormatter'.(ÈĞ¿¹şÿÿÿÿ8€¹Ë«»,
+9squid:S2129"Remove this "Long" constructor(¿¡Ó<8€¹Ë«»,
+=squid:S2129"!Remove this "Integer" constructor(çÆØ8€¹Ë«»,
+Fsquid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8€¹Ë«»,
+~squid:UselessImportCheck"URemove this unused import 'jdkStudy.reflect.invocationHandler.NullInvocationHandler'.(®òƒ8€¹Ë«»,
+Gsquid:S1481"+Remove this unused "number" local variable.(§êø8€¹Ë«»,
+Vsquid:S1854":Remove this useless assignment to local variable "number".(§êø8€¹Ë«»,
+[squid:S1854":Remove this useless assignment to local variable "object".(‘é­¢øÿÿÿÿ8€¹Ë«»,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡‡¡œ8€¹Ë«»,

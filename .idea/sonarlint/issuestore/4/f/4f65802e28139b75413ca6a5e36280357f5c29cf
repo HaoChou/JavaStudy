@@ -1,0 +1,28 @@
+
+Msquid:S1612",Replace this lambda with a method reference.(æ÷÷Ùøÿÿÿÿ8€¹Ë«»,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(À·Ôî8€¹Ë«»,
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8€¹Ë«»,
+Zsquid:UselessImportCheck"1Remove this unused import 'rx.functions.Action1'.(Ý‘½å8€¹Ë«»,
+?squid:S1148"#Use a logger to log this exception.(ÀŒ˜È8€¹Ë«»,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ú•òÄþÿÿÿÿ8€¹Ë«»,
+Msquid:S1612",Replace this lambda with a method reference.(æ÷÷Ùøÿÿÿÿ8€¹Ë«»,
+Isquid:S1604"(Make this anonymous inner class a lambda(£áß‚ùÿÿÿÿ8€¹Ë«»,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(´Î”â8€¹Ë«»,
+Zsquid:S3400"9Remove this method and declare a constant for this value.(âÝÎ‚ÿÿÿÿÿ8€¹Ë«»,
+Fsquid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8€¹Ë«»,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œ»³…8€¹Ë«»,
+jsquid:S1192"NDefine a constant instead of duplicating this literal "Hello, world!" 4 times.(µà§‰8€¹Ë«»,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ÷÷Ùøÿÿÿÿ8€¹Ë«»,
+Dsquid:S1604"(Make this anonymous inner class a lambda(Š·‹°8€¹Ë«»,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ8€¹Ë«»,
+Msquid:S1612",Replace this lambda with a method reference.(¾úžàøÿÿÿÿ8€¹Ë«»,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(´Î”â8€¹Ë«»,
+Dsquid:S1604"(Make this anonymous inner class a lambda(¦ƒûÃ8€¹Ë«»,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ÷÷Ùøÿÿÿÿ8€¹Ë«»,
+Msquid:S1612",Replace this lambda with a method reference.(¾úžàøÿÿÿÿ8€¹Ë«»,

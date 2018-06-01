@@ -1,0 +1,11 @@
+
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(À·Ôî
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8•ã­…»,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğ—âÁ8•ã­…»,
+Dsquid:S1604"(Make this anonymous inner class a lambda(ÍßŞ˜8»ñ©…»,
+Fsquid:S00108")Either remove or fill this block of code.(”ı¾8»ñ©…»,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Äñ¦¯8•ã­…»,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÁÃ¹Ğúÿÿÿÿ8ä±¯…»,
