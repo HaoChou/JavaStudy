@@ -72,7 +72,6 @@ public class HttpServer {
     }
 
     public static void main(String[] args) {
-
         System.out.println(Runtime.getRuntime().availableProcessors());
         HttpServer httpServer = new HttpServer();
         httpServer.start();
