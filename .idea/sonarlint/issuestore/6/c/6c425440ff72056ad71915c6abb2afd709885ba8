@@ -1,20 +1,0 @@
-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(æ÷÷Ùøÿÿÿÿ8¯‹·Öº,
-Dsquid:S1604"(Make this anonymous inner class a lambda(˜Áøú8è¹Í«»,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ì½İ®ÿÿÿÿÿ8è¹Í«»,
-?squid:S1148"#Use a logger to log this exception.(ÀŒ˜È8ÌÖº,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ı³ÓÆ8ÿ÷Í«»,
-Dsquid:S1604"(Make this anonymous inner class a lambda(Ş—±‘8¯‹·Öº,
-Dsquid:S1604"(Make this anonymous inner class a lambda(¯‘æÂ8¯‹·Öº,
-Msquid:S1612",Replace this lambda with a method reference.(æ÷÷Ùøÿÿÿÿ8¯‹·Öº,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ú•òÄşÿÿÿÿ8Ê²ÒÖº,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8¯‹·Öº,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Œ»³…8´¡ÑÖº,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8¯‹·Öº,
-tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(À·Ôî8¯‹·Öº,

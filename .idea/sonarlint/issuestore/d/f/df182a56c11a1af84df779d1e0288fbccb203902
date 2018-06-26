@@ -1,17 +1,0 @@
-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Àð‡ê8Õ…†¢¨,
-Bsquid:S1170"!Make this final field static too.(ÞüÞÏþÿÿÿÿ8Õ…†¢¨,
-bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Õ…†¢¨,
-Tsquid:S1197"8Move the array designator from the variable to the type.(ˆš¤Œ8Õ…†¢¨,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Õ…†¢¨,
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(÷Ðœšþÿÿÿÿ8Õ…†¢¨,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(„‘·­8Õ…†¢¨,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(’Ö¢ˆ8Õ…†¢¨,
-isquid:S1192"HDefine a constant instead of duplicating this literal "userId:" 3 times.(ÒÐ‹öúÿÿÿÿ8Õ…†¢¨,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Õ…†¢¨,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Õ…†¢¨,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÒÐ‹öúÿÿÿÿ8Õ…†¢¨,

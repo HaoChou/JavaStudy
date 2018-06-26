@@ -1,15 +1,0 @@
-
-tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(À·Ôî8€¹Ë«»,
-¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸ÜÒÄøÿÿÿÿ8€¹Ë«»,
-gsquid:UselessImportCheck"9Remove this unused import 'com.sun.tools.javac.util.Log'.(Æ¤‘íøÿÿÿÿ8€¹Ë«»,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(›ÈŸ¥üÿÿÿÿ8€¹Ë«»,
-Isquid:S1604"(Make this anonymous inner class a lambda(˜øðÚÿÿÿÿÿ8€¹Ë«»,
-Fsquid:S1181"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ8€¹Ë«»,
-¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(åí›®ÿÿÿÿÿ8€¹Ë«»,
-Dsquid:S1604"(Make this anonymous inner class a lambda(¦ƒûÃ8€¹Ë«»,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(šŸðé8€¹Ë«»,
-Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(Æ¤‘íøÿÿÿÿ8€¹Ë«»,
-Isquid:S1604"(Make this anonymous inner class a lambda(«šåæýÿÿÿÿ8€¹Ë«»,
-Isquid:S1604"(Make this anonymous inner class a lambda(ÿ–Þ·úÿÿÿÿ8€¹Ë«»,

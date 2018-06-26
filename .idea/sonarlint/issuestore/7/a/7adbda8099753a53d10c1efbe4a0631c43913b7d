@@ -1,17 +1,0 @@
-
-Nsquid:S1068"-Remove this unused "lockClass" private field.(¶¶–Œþÿÿÿÿ8Õ…†¢¨,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¥ú¡Øýÿÿÿÿ8Õ…†¢¨,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ç¢«Œ8Õ…†¢¨,
-_squid:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(¬Æ„°8Õ…†¢¨,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(à‚âä8Õ…†¢¨,
-bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Õ…†¢¨,
-[squid:S2274":Remove this call to "wait" or move it into a "while" loop.(·ÖÕ…þÿÿÿÿ8Õ…†¢¨,
-tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¿¨¦ý8Õ…†¢¨,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(òè’—þÿÿÿÿ8Õ…†¢¨,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Õ…†¢¨,
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾üùi8Õ…†¢¨,

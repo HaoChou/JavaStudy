@@ -1,9 +1,0 @@
-
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ó®—þ¦,
-Ksquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ó®—þ¦,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ó®—þ¦,
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(»â¡P8ó®—þ¦,
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(šÛø†úÿÿÿÿ8ó®—þ¦,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ò¾‚§ùÿÿÿÿ8ó®—þ¦,

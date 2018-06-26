@@ -6,17 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="asm" />
         <module name="JavaStudy" />
-        <module name="jdkstudy" />
         <module name="jdkStudy" />
+        <module name="jdkstudy" />
         <module name="nettystudy" />
+        <module name="rxjava2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="asm" target="1.5" />
       <module name="JavaStudy" target="1.8" />
       <module name="jdkStudy" target="1.8" />
       <module name="jdkstudy" target="1.8" />
       <module name="nettystudy" target="1.8" />
+      <module name="rxjava2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

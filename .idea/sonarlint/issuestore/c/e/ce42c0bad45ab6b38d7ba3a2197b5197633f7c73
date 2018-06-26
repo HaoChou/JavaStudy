@@ -1,25 +1,0 @@
-
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(äƒ¼÷8¯ëÕº,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Â¹í©8¯ëÕº,
-osquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ8¯ëÕº,
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Òª÷ıÿÿÿÿ8¯ëÕº,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(…´›—ûÿÿÿÿ8¯ëÕº,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(¥í¶ëûÿÿÿÿ8¯ëÕº,
-wsquid:UselessImportCheck"IRemove this unused import 'com.sun.org.apache.bcel.internal.generic.NEW'.(èú¨Óşÿÿÿÿ8¯ëÕº,
-Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(èú¨Óşÿÿÿÿ8¯ëÕº,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(”Ãóÿÿÿÿÿ8¯ëÕº,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(„œıï8¯ëÕº,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(á¡ÓÈ8¯ëÕº,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(·Ÿ§ºıÿÿÿÿ8¯ëÕº,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(‰¥şÈ8¯ëÕº,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(­àô•şÿÿÿÿ8¯ëÕº,

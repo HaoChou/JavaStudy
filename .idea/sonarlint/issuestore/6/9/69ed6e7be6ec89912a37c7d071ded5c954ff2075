@@ -1,10 +1,0 @@
-
-†squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ã¶ııÿÿÿÿ8°ëÕº,
-Gsquid:S1481"&Remove this unused "a" local variable.(ø¯Òÿÿÿÿÿ8°ëÕº,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(İè¬øÿÿÿÿ8°ëÕº,
-tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÅÁú‹8°ëÕº,
-squid:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(±¦œÉ8°ëÕº,
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(¸ØïU8°ëÕº,
-Gsquid:S1481"&Remove this unused "b" local variable.(Ÿ¬ó¢øÿÿÿÿ8°ëÕº,

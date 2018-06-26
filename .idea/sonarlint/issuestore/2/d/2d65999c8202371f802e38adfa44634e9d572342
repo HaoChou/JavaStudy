@@ -1,4 +1,0 @@
-
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ğšúÿÿÿÿ
-nsquid:S1450"RRemove the "tar" field and declare it as a local variable in the relevant methods.(‰Éé€8¤èØˆ·,
-Csquid:S1068"'Remove this unused "tar" private field.(‰Éé€8¤èØˆ·,

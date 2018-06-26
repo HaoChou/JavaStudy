@@ -1,12 +1,0 @@
-
-~squid:UselessImportCheck"PRemove this unused import 'jdkStudy.thread.sleepAndWait.Test.WaitAndNotifyTest'.(˜’óıøÿÿÿÿ8Ë¿Æˆ·,
-Zsquid:S1854">Remove this useless assignment to local variable "interfaces".(ìŸçò8œîÆˆ·,
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ğšúÿÿÿÿ
-Nsquid:S1481"-Remove this unused "bInteger" local variable.(Ğ«•øÿÿÿÿ8Îõæˆ·,
-Jsquid:S1481")Remove this unused "bInt" local variable.(£¥Èëüÿÿÿÿ8Îõæˆ·,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(—á¸8¨Áïó¶,
-Ksquid:S1481"/Remove this unused "interfaces" local variable.(ìŸçò8œîÆˆ·,
-Ysquid:S1854"8Remove this useless assignment to local variable "bInt".(£¥Èëüÿÿÿÿ8Îõæˆ·,
-]squid:S1854"<Remove this useless assignment to local variable "bInteger".(Ğ«•øÿÿÿÿ8Îõæˆ·,
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãä‘óøÿÿÿÿ8©‰·,
