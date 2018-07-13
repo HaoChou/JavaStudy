@@ -33,6 +33,7 @@ public class LocalClient {
                 @Override
                 protected void initChannel(LocalChannel ch) throws Exception {
                     ch.pipeline()
+                            .addLast(new LocalByteToMsgDecoder())
                             .addLast(new LocalMessageToMessageDecoder())
 //                            .addLast(new  LocalByteToMsgDecoder())
                             .addLast(new ClientHandler(LocalClient.this))
