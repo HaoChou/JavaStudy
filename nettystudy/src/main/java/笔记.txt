@@ -1,0 +1,4 @@
+#事件流
+    1.调用channel或者ChannelPipeline的write 事件流是从ChannelPipeline的头部流到尾部
+
+    2.调用channelHandlerContext的write 事件流是从下一个ChannelHandler流经ChannelPipeline的 ，将产生更短的事件流，      可以利用此特性来提高性能
