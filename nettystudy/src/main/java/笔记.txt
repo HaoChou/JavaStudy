@@ -2,3 +2,7 @@
     1.调用channel或者ChannelPipeline的write 事件流是从ChannelPipeline的头部流到尾部
 
     2.调用channelHandlerContext的write 事件流是从下一个ChannelHandler流经ChannelPipeline的 ，将产生更短的事件流，      可以利用此特性来提高性能
+
+@Sharable注解
+    1.表示一个ChannelHandler可以被添加到多个ChannelPipeline中去，可以安全到被用于多个channel(即连接）
+    2.ChannelHandler应当是线程安全到才能使用该注解
