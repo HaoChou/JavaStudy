@@ -6,3 +6,4 @@
 @Sharable注解
     1.表示一个ChannelHandler可以被添加到多个ChannelPipeline中去，可以安全到被用于多个channel(即连接）
     2.ChannelHandler应当是线程安全到才能使用该注解
+    3.场景：在多个ChannelPipeline中安装同一个ChannelHandler，常见的是收集跨越多个channel的统计信息
