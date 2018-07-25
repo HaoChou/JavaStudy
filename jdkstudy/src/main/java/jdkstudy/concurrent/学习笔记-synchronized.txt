@@ -1,0 +1,16 @@
+synchronized
+    一个对象一个锁 类锁是对象锁的一种
+    static synchronized + synchronized（*.class)走的是类锁
+    synchronized（this) +synchronized(非this对象） synchronized 非静态方法 是用的对象锁
+
+    一个对象的两个synchronized非静态方法 用的是同一个对象锁 所以同一时刻只能有一个方法在运行
+
+    一个类的两个static synchronized方法 用的是同一个类锁 所以同一时刻只能有一个方法在运行
+
+    对象锁和类锁相互不影响
+
+    静态方法则一定会同步，非静态方法需在单例模式才生效，
+
+    synchronized 继承
+     如果父类 、子类中存在同样的方法。父类方法是同步的，子类是不同步的。那么子类的方法就不会继承父类的重载方法性质。必须自己加上synchronized关键字。
+
