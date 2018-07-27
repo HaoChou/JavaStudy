@@ -1,28 +1,0 @@
-
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÓÐÃî8Õ…†¢¨,
-asquid:S2184"@Cast one of the operands of this integer division to a "double".(Àí»¾ùÿÿÿÿ8Ïýú›µ,
-Bsquid:S2111"!Use "BigDecimal.valueOf" instead.(¡ÎÊ‹üÿÿÿÿ8ãÓÇÁ¶,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Àí»¾ùÿÿÿÿ8Ïýú›µ,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼¬ù 8Õ…†¢¨,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒ‡ÔŸ8Õ…†¢¨,
-|squid:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(»¥Íþÿÿÿÿ8Õ…†¢¨,
-Qsquid:S1854"5Remove this useless assignment to local variable "b".(™ÆÞ¬8ãÓÇÁ¶,
-esquid:UselessImportCheck"7Remove this unused import 'java.net.InetSocketAddress'.(·¬ð¶ýÿÿÿÿ8Õ…†¢¨,
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(û¯ô¹8Õ…†¢¨,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(€±°¨8Õ…†¢¨,
-Jsquid:S1481".Remove this unused "deviceIds" local variable.(ÂÎÎ8Õ…†¢¨,
-§%squid:RedundantThrowsDeclarationCheck"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ˆ…­Å8ãÓÇÁ¶,
-ysquid:UselessImportCheck"KRemove this unused import 'org.apache.commons.collections.CollectionUtils'.(’õÐðùÿÿÿÿ8Õ…†¢¨,
-csquid:UnusedPrivateMethod"4Remove this unused private "sendJsonContent" method.(ðÅº»øÿÿÿÿ8Õ…†¢¨,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªú£‘øÿÿÿÿ8Õ…†¢¨,
-bsquid:UselessImportCheck"4Remove this unused import 'java.sql.DataTruncation'.(Œò­ÿÿÿÿÿ8Õ…†¢¨,
-`squid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8ãÓÇÁ¶,
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªú£‘øÿÿÿÿ8Õ…†¢¨,
-Ysquid:S1854"=Remove this useless assignment to local variable "deviceIds".(ÂÎÎ8Õ…†¢¨,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Õ…†¢¨,
-Bsquid:S1481"&Remove this unused "b" local variable.(™ÆÞ¬8ãÓÇÁ¶,
-_squid:UselessImportCheck"1Remove this unused import 'java.net.InetAddress'.(ë³ƒÒÿÿÿÿÿ8Õ…†¢¨,
