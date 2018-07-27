@@ -8,6 +8,13 @@
     <artifactId>java-study</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>asm</module>
+        <module>design-patterns</module>
+        <module>jdk-study</module>
+        <module>netty-study</module>
+        <module>rxjava2</module>
+    </modules>
 <dependencies>
     <dependency>
         <groupId>io.reactivex</groupId>

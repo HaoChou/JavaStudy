@@ -19,7 +19,7 @@ public class test {
         System.out.println(System.class.getClassLoader());
         System.out.println(test.class.getClassLoader());
         System.out.println(test.class.getClassLoader().getParent());
-        System.out.println(test.class.getClassLoader().getResource("/test/jvm.txt"));
+        System.out.println(test.class.getClassLoader().getResource("/jdkstudy/jvm.txt"));
         System.out.println(test.class.getClassLoader().getClass());
         System.out.println(test.class.getClassLoader().getClass().getClassLoader());
 
