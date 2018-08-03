@@ -12,7 +12,6 @@ import java.util.Set;
 public class HashCodeTest {
 
 
-
     public static void main(String[] args)
     {
         Set<Integer> set = new HashSet<>();
@@ -23,7 +22,7 @@ public class HashCodeTest {
                 set.add(p.hashCode());
         }
         System.out.println(set.size());
-        //299981
+        //299981 hashCode是会重复的
     }
 
 }
