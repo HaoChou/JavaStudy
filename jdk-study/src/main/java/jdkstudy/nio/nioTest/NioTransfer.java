@@ -39,8 +39,11 @@ public class NioTransfer {
             long position = 0;
             long count = fromFileChannel.size();
 
-            toFileChannel.transferFrom(fromFileChannel,position,count);
+//            toFileChannel.transferFrom(fromFileChannel,position,count); //1
+            fromFileChannel.transferTo(position,count,toFileChannel);//2
             System.out.println("over");//去target目录下看 toFile 文件已经有了
+
+            // 1和2两行执行代码的结果一样的 都是吧from文件里的内容复制到里to文件里。
         } catch (IOException e) {
             e.printStackTrace();
         }
