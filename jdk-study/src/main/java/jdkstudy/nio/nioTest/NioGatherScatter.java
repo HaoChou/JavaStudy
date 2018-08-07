@@ -17,7 +17,7 @@ public class NioGatherScatter {
         RandomAccessFile aFile = null;
         try {
             //这个文件可以忽略
-            aFile = new RandomAccessFile("src/main/java/jdkstudy/nio/nioTest/nioTest.txt", "rw");
+            aFile = new RandomAccessFile("src/main/java/jdkstudy/nioFile/nioTest/nioTest2.txt", "rw");
 
             FileChannel fileChannel = aFile.getChannel();
             ByteBuffer header = ByteBuffer.allocate(128);

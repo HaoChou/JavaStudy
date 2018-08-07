@@ -2,6 +2,7 @@ package jdkstudy.nio.nioTest;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.net.URL;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
@@ -14,7 +15,11 @@ public class NioTest {
     public static void method1() {
         RandomAccessFile aFile = null;
         try {
-            aFile = new RandomAccessFile("src/main/java/jdkstudy/nio/nioTest/nioTest.txt", "rw");
+
+            URL resource = NioTransfer.class.getClassLoader().getResource("nioFile/nioTest.txt");
+            String fromFileStr=resource.getFile();
+
+            aFile = new RandomAccessFile(fromFileStr, "rw");
             FileChannel fileChannel = aFile.getChannel();
             ByteBuffer buf = ByteBuffer.allocate(20);
 
