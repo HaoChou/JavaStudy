@@ -34,6 +34,7 @@ public class NioSelector {
                 while (iterator.hasNext()){
 
                     final SelectionKey key = iterator.next();
+                    key.channel();
                     iterator.remove();
                     if(key.isAcceptable()) {
 
