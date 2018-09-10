@@ -36,4 +36,7 @@ public class Server {
             group.shutdownGracefully().sync();
         }
     }
+
+    public static void main(String[] args) {
+    }
 }

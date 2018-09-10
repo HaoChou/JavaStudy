@@ -54,7 +54,7 @@ public class LeaderLatchTest {
                 latchList.add(leaderLatch);
                 leaderLatch.start();
 
-            System.out.println(JSON.toJSON(leaderLatch.getParticipants()));
+//            System.out.println(JSON.toJSON(leaderLatch.getParticipants()));
 
             Thread.sleep(Integer.MAX_VALUE);
         } catch (Exception e) {
