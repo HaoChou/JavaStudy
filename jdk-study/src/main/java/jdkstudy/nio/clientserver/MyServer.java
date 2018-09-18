@@ -37,6 +37,9 @@ public class MyServer {
 
                     SelectionKey next = iterator.next();
 
+
+                    //Selector.select()取出事件集中的全部事件，
+                    // 如果不删除，在下次轮询的时候，调用Selector.select()会取出旧的事件集，导致重复处理
                     //之前没有这个remove 有问题
                     iterator.remove();
                     if (next.isAcceptable()) {
