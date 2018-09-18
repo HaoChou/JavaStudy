@@ -1,8 +1,6 @@
 package jdkstudy.nio.clientserver;
 
 
-
-
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -25,32 +23,34 @@ public class MyServer {
 
             serverSocketChannel.bind(new InetSocketAddress(8888));
 
-            Selector selector  = Selector.open();
+            Selector selector = Selector.open();
 
             serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 //            serverSocketChannel.register(selector, SelectionKey.OP_READ);
 
-            while(selector.select()>0){
+            while (selector.select() > 0) {
 
                 Iterator<SelectionKey> iterator = selector.selectedKeys().iterator();
 
-                while (iterator.hasNext()){
+                while (iterator.hasNext()) {
 
 
                     SelectionKey next = iterator.next();
 
-                    if(next.isAcceptable()){
+                    //之前没有这个remove 有问题
+                    iterator.remove();
+                    if (next.isAcceptable()) {
 
 
                         //10、 若“接收就绪”，获取客户端连接
                         SocketChannel socketChannel = serverSocketChannel.accept();
-                        if(null!=socketChannel) {
+                        if (null != socketChannel) {
                             //11、 切换非阻塞模式
                             socketChannel.configureBlocking(false);
                             //12、 将该通道注册到选择器上
                             socketChannel.register(selector, SelectionKey.OP_READ);
                         }
-                    }else if(next.isReadable()) {
+                    } else if (next.isReadable()) {
                         SocketChannel channel = (SocketChannel) next.channel();
 
                         //14、 指定缓冲区大小，读取数据
@@ -66,6 +66,7 @@ public class MyServer {
 
                     }
                 }
+
 
             }
 

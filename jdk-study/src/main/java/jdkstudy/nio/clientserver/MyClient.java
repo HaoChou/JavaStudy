@@ -31,6 +31,7 @@ public class MyClient {
 
         while (scan.hasNext()) {
             String str = scan.next();
+            System.out.println("str is "+str);
             buf.put((new Date().toString() + "\n" + str).getBytes());
             buf.flip();
             sChannel.write(buf);
