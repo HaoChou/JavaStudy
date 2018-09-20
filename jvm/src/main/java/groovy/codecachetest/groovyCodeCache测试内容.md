@@ -115,3 +115,5 @@ JDK8内存模型默认已经没有PermGen了，也就是说不会发生OOM:PermG
         }
         
         
+codecache的JVM配置参考：
+https://docs.oracle.com/javase/8/embedded/develop-apps-platforms/codecache.htm#A1099598
