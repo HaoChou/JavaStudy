@@ -38,6 +38,12 @@ JVM加载不同的类（Groovy编译而成）后，方法变成热点代码并�
 系统提示的编译器停止工作.
            
         CodeCache is full. Compiler has been disabled
+        
+
+
+-XX:ReservedCodeCacheSize=20m  -XX:+UseCodeCacheFlushing 
+ReservedCodeCacheSize设置codecache的值， +UseCodeCacheFlushing  是打开codecache的Flush功能，关闭后codeCache不会回收，打开后codeCache会进行回收。
+
 在看下另外一个内存区 Comresssed Class Space也一直增长
 
 疑点：不随着GC而回收 也没有随着Groovy的ClassLoader的回收被回收（每次编译都用一个新的GroovyClassLoader实例的）

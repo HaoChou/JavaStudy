@@ -32,7 +32,7 @@ public class GroovyCodeCacheTest {
                 compile.getMethod("get").invoke(o);
             }
 
-            System.out.println("第"+i+"个结束！");
+//            System.out.println("第"+i+"个结束！");
 //            Thread.sleep(3000);
         }
         Thread.sleep(300000);
