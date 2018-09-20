@@ -5,6 +5,12 @@
 * JVM会把热点代码进行编译，编译后缓存在CodeCache，这样热点代码的执行效率得到提高。
 
 
+可以参考的配置：
+
+-XX:CompressedClassSpaceSize=xxm 指定CompressedClassSpaceSize的大小 回收（unLoading没用的类）
+-XX:ReservedCodeCacheSize=20m  配置 ReservedCodeCacheSize的大小 
+-XX:+UseCodeCacheFlushing   开启codeCache的回收功能
+
 
 Groovy可以在JVM上运行的动态的语言。昨天分享的淘金活动系统中又用到了Groovy，于是想到了之前的一个问题，这里实验一下看看结论。
 
@@ -51,6 +57,18 @@ ReservedCodeCacheSize设置codecache的值， +UseCodeCacheFlushing  是打开co
 JDK8内存模型默认已经没有PermGen了，也就是说不会发生OOM:PermGen space了。
 
 但是使用的是LVS自带的内存，所以最好还是指定这个参数-XX:MaxMetaspaceSize=XXXm控制下大小 ，否则就有可能吃光LVS的内存。
+
+
+
+
+指定Compressed Class Space大小：-XX:CompressedClassSpaceSize=5m
+
+加上JVM参数  -XX:-UseCompressedClassPointers 就没有Compressed Class Space了
+
+加上配置
+
+-XX:CompressedClassSpaceSize=5m后 就出现了回收的现象，出现unLoading类的情况。
+
 
 
 
