@@ -36,7 +36,8 @@ JVM加载不同的类（Groovy编译而成）后，方法变成热点代码并�
 上图中CodeCache满了之后就不会再增加，后面的曲线呈水平。
 
 系统提示的编译器停止工作.
-
+           
+        CodeCache is full. Compiler has been disabled
 在看下另外一个内存区 Comresssed Class Space也一直增长
 
 疑点：不随着GC而回收 也没有随着Groovy的ClassLoader的回收被回收（每次编译都用一个新的GroovyClassLoader实例的）
