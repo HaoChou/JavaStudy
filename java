@@ -6,4 +6,10 @@
   
   
 线程- 
-  状态：
+  jvm的线程状态：
+    new 
+    running 
+    blocked 
+    waiting 
+    timed-waiting 
+    terminated
